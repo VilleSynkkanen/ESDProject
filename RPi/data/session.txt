@@ -1,2 +1,2 @@
-steps:0
-dist:0
+steps:920
+dist:600
