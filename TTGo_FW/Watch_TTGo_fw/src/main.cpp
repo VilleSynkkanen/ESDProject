@@ -225,6 +225,9 @@ void loop()
                 if (incomingChar == 'c' and sessionStored and not sessionSent)
                 {
                     sendSessionBT();
+                    watch->tft->fillRect(0, 0, 240, 240, TFT_BLACK);
+                    watch->tft->drawString("Session sent",  45, 90, 4);
+                    delay(2000);
                     sessionSent = true;
                 }
 
@@ -241,6 +244,7 @@ void loop()
                         if (incomingChar == 'r')
                         {
                             Serial.println("Got an R");
+                            //delay(1000);
                             // Delete session
                             deleteSession();
                             sessionStored = false;
