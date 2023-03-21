@@ -48,8 +48,6 @@ The development was done on the RPi itself using Thonny as an IDE. It is also po
 -	PyBluez 0.23
 -	Pillow 8.1.2
 
-## How to Use the Project
-
 ## Collaborators
 Ville Synkkänen
 
