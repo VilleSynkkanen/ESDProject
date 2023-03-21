@@ -10,6 +10,7 @@ The development was done on Windows using VSCode and PlatformIO. Using the same 
   •	[PlatformIO installation guide](https://platformio.org/install/ide?install=vscode)
 
 After installing PlatformIO, you should be able to see the following tab.
+![image](https://user-images.githubusercontent.com/104350901/226669954-61ad5254-234a-4c57-afc4-fab5ff5dd839.png)
 
 ## How to Use the Project
 
