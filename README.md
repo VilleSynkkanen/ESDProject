@@ -5,9 +5,8 @@ The projext implements a smartwatch UI for the LilyGo TWatch 2020, which allows 
 ## How to Install and Run the Project
 The development was done on Windows using VSCode and PlatformIO. Using the same environment is highly recommended. 
 
-  •	[VSCode](https://code.visualstudio.com/)
-
-  •	[PlatformIO installation guide](https://platformio.org/install/ide?install=vscode)
+- [VSCode](https://code.visualstudio.com/)
+- [PlatformIO installation guide](https://platformio.org/install/ide?install=vscode)
 
 After installing PlatformIO, you should be able to see the following tab:
 
@@ -23,19 +22,16 @@ Here you can click on _Build_, to build an image of the project. This image can 
 
 The library dependencies can be found in .pio/libdeps/ttgo-t-watch and they include: 
 
-  •	TTGO TWatch Library 
-
-  •	LittleFS_esp32 
+- TTGO TWatch Library 
+-	LittleFS_esp32 
 
 ### RPi program:
 
 The RPi program can be found in the 'RPi' folder. The folder is organized as follows:
 
-•	The root folder contains the Python code files and requirements information
-
-•	User data is saved in the 'data' folder
-
-•	HTML files used by the web server are in the 'templates' folder
+- The root folder contains the Python code files and requirements information
+- User data is saved in the 'data' folder
+- HTML files used by the web server are in the 'templates' folder
 
 ![image](https://user-images.githubusercontent.com/128503048/226718933-8d5ffcac-fabc-4195-9155-97a02ed982b2.png)
 
@@ -47,15 +43,16 @@ The web server is implemented in the _app.py_ file. In addition, several HTML fi
 
 The development was done on the RPi itself using Thonny as an IDE. It is also possible to develop on another platform using any IDE with Python support, such as. The program has the following dependencies:
 
-•	Python 3.9.2 or newer
-
-•	Flask 2.2.2
-
-•	PyBluez 0.23
-
-•	Pillow 8.1.2
+-	Python 3.9.2 or newer
+-	Flask 2.2.2
+-	PyBluez 0.23
+-	Pillow 8.1.2
 
 ## How to Use the Project
 
 ## Collaborators
+Ville Synkkänen
 
+Pyry Aho
+
+Seppo Koivisto
